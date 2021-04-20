@@ -1,0 +1,64 @@
+body {
+    margin: 0px;
+    background-color: tomato;
+}
+header {
+    height: 12em;
+}
+h1 {
+    text-align: center;
+    color: white;
+    padding-top: 30px;
+}
+h2 {
+    padding-left: 30%;
+}
+/** nav*/
+.container-fluid > img {
+    width: 40px;
+}
+/** carousel*/
+#central {
+    border: 5px solid coral;
+}
+#carouselExampleControls {
+    display: flex;
+    margin: 0px;
+    width: 40em;
+    height: 600px;
+    
+}
+.carousel-item > img {
+    width: 600px;
+    height: 600px;
+}
+#central {
+    background-color: white;
+    display: flex;
+    justify-content: center;
+}
+
+/** list group*/
+.listt {
+    display: flex;
+    justify-content: center;
+}
+.list-group {
+
+    width: 600px;
+    border: 2px solid black;
+    margin: 0px;
+}
+#buttons {
+    text-align: center;
+    margin: 20px 0px 0px 40px;
+}
+#lista {
+    width: 500px;
+}
+.ul-list {
+    width: 400px;
+    padding: 0px;
+    border: 2px solid grey;
+    height: 100%;
+}
